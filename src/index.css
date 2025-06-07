@@ -1,0 +1,27 @@
+body.light-theme {
+  --bg-color: #fff;
+  --text-color: #000;
+  --navbar-bg: #f8f9fa;
+  --navbar-text: #000;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #fff;
+  --navbar-bg: #212529;
+  --navbar-text: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.red-theme {
+  --bg-color: #ff0000;
+  --text-color: #fff;
+  --navbar-bg: #ff0000;
+  --navbar-text: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
